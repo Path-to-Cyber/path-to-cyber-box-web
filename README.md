@@ -7,7 +7,7 @@ On voit une faille include au niveau de la page login.php (index.php) dans le fo
 http://127.0.0.1/box/index.php?home=/etc/passwd
 
 <h2>SQL injection</h2>
-Le champs login et password sont vulnérable au injection sql on peux se connecter en root avec  ```
+Le champs login et password sont vulnérable au injection sql on peux se connecter en root avec
 ``` sql
 ' or 1 = 1 /*
 ```
