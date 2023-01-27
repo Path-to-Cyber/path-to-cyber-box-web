@@ -1,0 +1,43 @@
+body {
+    background-color: #2b2b2b; /* dark grey background */
+    color: #fff; /* white text */
+    font-family: 'Courier New', monospace; /* use a monospace font for a cyberpunk feel */
+}
+
+h1, h2 {
+    text-transform: uppercase; /* make headings uppercase for a more cyberpunk look */
+    letter-spacing: 2px; /* add some spacing between letters */
+}
+
+a {
+    color: #00ff9c; /* light green link color */
+    text-decoration: none; /* remove underlines from links */
+}
+
+a:hover {
+    color: #fff; /* change link color on hover */
+}
+
+.container {
+    max-width: 1200px; /* set a maximum width for the container */
+    margin: 0 auto; /* center the container horizontally */
+    padding: 50px; /* add some padding to the container */
+}
+
+input[type="text"], input[type="password"], textarea {
+    background-color: #333333; /* dark grey input background */
+    color: #fff; /* white input text */
+    border: none; /* remove borders from inputs */
+    padding: 10px; /* add some padding to the inputs */
+    font-size: 16px; /* increase the input text size */
+}
+
+input[type="submit"] {
+    background-color: #8B00FF; /* light green submit button color */
+    color: #fff; /* white submit button text */
+    border: none; /* remove borders from submit button */
+    padding: 10px 20px; /* add some padding to the submit button */
+    font-size: 16px; /* increase the submit button text size */
+    cursor: pointer;
+
+}
